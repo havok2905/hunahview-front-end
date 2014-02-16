@@ -1,0 +1,348 @@
+{
+	"breweries" : [
+  {
+    "name": "7venth Sun Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Dunedin",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Angry Chair Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Tampa",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "The Answer Brewpub",
+    "location": {
+      "country": "USA",
+      "city": "Richmond",
+      "state": "VA"
+    }
+  },
+  {
+    "name": "B. Nektar Meadery",
+    "location": {
+      "country": "USA",
+      "city": "Ferndale",
+      "state": "MI"
+    }
+  },
+  {
+    "name": "Barley Mow Brewing Co.",
+    "location": {
+      "country": "USA",
+      "city": "Largo",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Bold City Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Jacksonville",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Burnt Hickory Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Kennesaw",
+      "state": "GA"
+    }
+  },
+  {
+    "name": "Cigar City Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Tampa",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Ecliptic",
+    "location": {
+      "country": "USA",
+      "city": "Portland",
+      "state": "OR"
+    }
+  },
+  {
+    "name": "Max Lager's",
+    "location": {
+      "country": "USA",
+      "city": "Atlanta",
+      "state": "GA"
+    }
+  },
+  {
+    "name": "The Bruery",
+    "location": {
+      "country": "USA",
+      "city": "Placentia",
+      "state": "CA"
+    }
+  },
+  {
+    "name": "Widmer Bros",
+    "location": {
+      "country": "USA",
+      "city": "Portland",
+      "state": "OR"
+    }
+  },
+  {
+    "name": "Cigar City Brewpub",
+    "location": {
+      "country": "USA",
+      "city": "Tampa",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Duck Rabbit Craft Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Farmville",
+      "state": "NC"
+    }
+  },
+  {
+    "name": "Due South Brewing Co.",
+    "location": {
+      "country": "USA",
+      "city": "Boynton Beach",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Fat Head's Brewery",
+    "location": {
+      "country": "USA",
+      "city": "North Olmstead",
+      "state": "OH"
+    }
+  },
+  {
+    "name": "Florida Avenue Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Tampa",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Founders Brewing Co.",
+    "location": {
+      "country": "USA",
+      "city": "Grand Rapids",
+      "state": "MI"
+    }
+  },
+  {
+    "name": "Funky Buddha Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Oakland Park",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Gravity Brewlab",
+    "location": {
+      "country": "USA",
+      "city": "Miami",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Green Bench Brewing",
+    "location": {
+      "country": "USA",
+      "city": "St. Petersburg",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Green Room Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Jacksonville Beach",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Half Acre Beer Co",
+    "location": {
+      "country": "USA",
+      "city": "Chicago",
+      "state": "IL"
+    }
+  },
+  {
+    "name": "Hardywood Park Craft Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Richmond",
+      "state": "VA"
+    }
+  },
+  {
+    "name": "J Wakefield Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Wynwood",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Jackie O's",
+    "location": {
+      "country": "USA",
+      "city": "Athens",
+      "state": "OH"
+    }
+  },
+  {
+    "name": "Late Start Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Tampa",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Mikkeller",
+    "location": {
+      "country": "USA",
+      "city": "Copenhagen",
+      "state": "Denmark"
+    }
+  },
+  {
+    "name": "New Belgium Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Ft. Collins",
+      "state": "CO"
+    }
+  },
+  {
+    "name": "Oakshire Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Eugene",
+      "state": "OR"
+    }
+  },
+  {
+    "name": "Oskar Blues",
+    "location": {
+      "country": "USA",
+      "city": "Brevard",
+      "state": "NC"
+    }
+  },
+  {
+    "name": "Perennial Artisan Ales",
+    "location": {
+      "country": "USA",
+      "city": "St. Louis",
+      "state": "MO"
+    }
+  },
+  {
+    "name": "Rapp Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Seminole",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Rivertowne Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Export",
+      "state": "PA"
+    }
+  },
+  {
+    "name": "Saint Somewhere Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Tarpon Springs",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Terrapin Beer",
+    "location": {
+      "country": "USA",
+      "city": "Athens",
+      "state": "GA"
+    }
+  },
+  {
+    "name": "Three Floyds Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Munster",
+      "state": "IN"
+    }
+  },
+  {
+    "name": "Three Palms Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Brandon",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Tomoka Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Ormond Beach",
+      "state": "FL"
+    }
+  },
+  {
+    "name": "Toppling Goliath Brewing Co",
+    "location": {
+      "country": "USA",
+      "city": "Decorah",
+      "state": "IA"
+    }
+  },
+  {
+    "name": "Uinta Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Salt Lake City",
+      "state": "UT"
+    }
+  },
+  {
+    "name": "Westbrook Brewing",
+    "location": {
+      "country": "USA",
+      "city": "Mt. Pleasant",
+      "state": "SC"
+    }
+  },
+  {
+    "name": "Wild Rover Pub & Brewery",
+    "location": {
+      "country": "USA",
+      "city": "Odessa",
+      "state": "FL"
+    }
+  }
+]
+}

@@ -1,0 +1,2468 @@
+{
+  "beers" : [
+  {
+    "beer": "Mangrove DIPA",
+    "breweries": [
+      {
+        "name": "7venth Sun Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Dunedin",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Time Bomb IPA",
+    "breweries": [
+      {
+        "name": "7venth Sun Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Dunedin",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Guily Pleasure Belgian Porter",
+    "breweries": [
+      {
+        "name": "7venth Sun Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Dunedin",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "with tart cherry, cacao & vanilla"
+  },
+  {
+    "beer": "Bretta Off Dead",
+    "breweries": [
+      {
+        "name": "7venth Sun Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Dunedin",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "100% Brett B fermented Belgian"
+  },
+  {
+    "beer": "3 Little Birds Florida Weisse",
+    "breweries": [
+      {
+        "name": "Angry Chair Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Brett C IPA",
+    "breweries": [
+      {
+        "name": "Angry Chair Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Brett C Saison with Mango and Peach",
+    "breweries": [
+      {
+        "name": "Angry Chair Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Flambé Strong Ale",
+    "breweries": [
+      {
+        "name": "Angry Chair Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "German Chocolate Coffee Cupcake",
+    "breweries": [
+      {
+        "name": "Angry Chair Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "German Chocolate Cupcake",
+    "breweries": [
+      {
+        "name": "Angry Chair Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Phantom Sour Blackberry Ale",
+    "breweries": [
+      {
+        "name": "Angry Chair Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Kong Krush Imperial Citra IPA",
+    "breweries": [
+      {
+        "name": "The Answer Brewpub",
+        "location": {
+          "country": "USA",
+          "city": "Richmond",
+          "state": "VA"
+        }
+      }
+    ],
+    "beerNotes": "collab with Extra Billy's Brewpub"
+  },
+  {
+    "beer": "Mango Tango Sour Spicy Saison",
+    "breweries": [
+      {
+        "name": "The Answer Brewpub",
+        "location": {
+          "country": "USA",
+          "city": "Richmond",
+          "state": "VA"
+        }
+      }
+    ],
+    "beerNotes": "collab with Strangeways Brewing"
+  },
+  {
+    "beer": "Dwarf Invasion",
+    "breweries": [
+      {
+        "name": "B. Nektar Meadery",
+        "location": {
+          "country": "USA",
+          "city": "Ferndale",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Kill All the Golfers",
+    "breweries": [
+      {
+        "name": "B. Nektar Meadery",
+        "location": {
+          "country": "USA",
+          "city": "Ferndale",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Necromangocon",
+    "breweries": [
+      {
+        "name": "B. Nektar Meadery",
+        "location": {
+          "country": "USA",
+          "city": "Ferndale",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Zombie Killer",
+    "breweries": [
+      {
+        "name": "B. Nektar Meadery",
+        "location": {
+          "country": "USA",
+          "city": "Ferndale",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "S'mores Imperial Chocolate Stout",
+    "breweries": [
+      {
+        "name": "Barley Mow Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Largo",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "The Unkindness Black IPA",
+    "breweries": [
+      {
+        "name": "Barley Mow Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Largo",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Barrel-aged Chinook IPA",
+    "breweries": [
+      {
+        "name": "Bold City Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Jacksonville",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Chinook IPA aged in Woodford Reserve barrels"
+  },
+  {
+    "beer": "Big Shanty Graham Cracker Stout",
+    "breweries": [
+      {
+        "name": "Burnt Hickory Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Kennesaw",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Cannon IPA",
+    "breweries": [
+      {
+        "name": "Burnt Hickory Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Kennesaw",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Didjits Blood Orange IPA",
+    "breweries": [
+      {
+        "name": "Burnt Hickory Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Kennesaw",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Freak Flag Apricot Brett Saison",
+    "breweries": [
+      {
+        "name": "Burnt Hickory Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Kennesaw",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Old Wooden Head DIPA",
+    "breweries": [
+      {
+        "name": "Burnt Hickory Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Kennesaw",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Illuminating the Path Pinot Noir Barrel-aged Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      {
+        "name": "Ecliptic",
+        "location": {
+          "country": "USA",
+          "city": "Portland",
+          "state": "OR"
+        }
+      }
+    ],
+    "beerNotes": "Collab with Ecliptic Brewing"
+  },
+  {
+    "beer": "Black Ash American Black Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      {
+        "name": "Max Lager's",
+        "location": {
+          "country": "USA",
+          "city": "Atlanta",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": "Collab with Max Lager's"
+  },
+  {
+    "beer": "Dos Costas Oeste - Grapefruit",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      {
+        "name": "The Bruery",
+        "location": {
+          "country": "USA",
+          "city": "Placentia",
+          "state": "CA"
+        }
+      }
+    ],
+    "beerNotes": "Collab with The Bruery"
+  },
+  {
+    "beer": "Dos Costas Oeste - Spanish cedar",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      {
+        "name": "The Bruery",
+        "location": {
+          "country": "USA",
+          "city": "Placentia",
+          "state": "CA"
+        }
+      }
+    ],
+    "beerNotes": "Collab with The Bruery"
+  },
+  {
+    "beer": "Gentlemen's Club - Bourbon Barrel-aged",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      {
+        "name": "Widmer Bros",
+        "location": {
+          "country": "USA",
+          "city": "Portland",
+          "state": "OR"
+        }
+      }
+    ],
+    "beerNotes": "Collab with Widmer Bros"
+  },
+  {
+    "beer": "Gentlemen's Club - New Oak-aged",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      {
+        "name": "Widmer Bros",
+        "location": {
+          "country": "USA",
+          "city": "Portland",
+          "state": "OR"
+        }
+      }
+    ],
+    "beerNotes": "Collab with Widmer Bros"
+  },
+  {
+    "beer": "Gentlemen's Club - Rye Whiskey Barrel-aged",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      {
+        "name": "Widmer Bros",
+        "location": {
+          "country": "USA",
+          "city": "Portland",
+          "state": "OR"
+        }
+      }
+    ],
+    "beerNotes": "Collab with Widmer Bros"
+  },
+  {
+    "beer": "5 Beers for 5 Years - Brewers Team",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "American Barley Wine"
+  },
+  {
+    "beer": "5 Beers for 5 Years - Cellar Team",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "New Zealand Double IPA"
+  },
+  {
+    "beer": "5 Beers for 5 Years - Packaging Team",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Margarita Gose"
+  },
+  {
+    "beer": "5 Beers for 5 Years - Sales, Marketing & Admin Team",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Imperial Oatmeal Cream Porter"
+  },
+  {
+    "beer": "5 Beers for 5 Years - Tasting Room Team",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Tangerine Florida Weisse"
+  },
+  {
+    "beer": "Apple Brandy Barrel-aged Warmer Winter Winter Warmer",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "2012"
+  },
+  {
+    "beer": "Bagged Lunch Blackberry PB&J",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Blueberry Muffin Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Blueberry Pancake Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Bourbon Barrel-aged Jose Marti American Porter",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Brandy Barrel-aged Hunahpu's Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Break Room Black Coffee Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Chocolate Chip Pancake Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Don Gavino's Big Guava Sour Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "aged in Chardonnay barrels"
+  },
+  {
+    "beer": "Double Barrel Hunahpoopoo Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Rum & Apple Brandy Barrels, aged on kopi luwak coffee"
+  },
+  {
+    "beer": "Double Barrel Hunahpu's Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Rum & Apple Brandy Barrels"
+  },
+  {
+    "beer": "Final Push Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "aged on kopi luwak coffee"
+  },
+  {
+    "beer": "French Toast Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Ghost of Hunahpu's Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "aged on ghost peppers"
+  },
+  {
+    "beer": "Ginger Lemongrass IPA",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Good Gourd Almighty Rum Barrel-aged Imperial Pumpkin Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Good Gourd Imperial Pumpkin Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "2012"
+  },
+  {
+    "beer": "Granola Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Hunahpoopoo Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "aged on kopi luwak coffee"
+  },
+  {
+    "beer": "Hunahpu's Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "2013"
+  },
+  {
+    "beer": "Hunahpu's Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "2014"
+  },
+  {
+    "beer": "Kalevipoeg at the Gates of Hell Bourbon Barrel-aged Baltic Porter",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Kalevipoeg Baltic Porter",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Key Lime Mosaic Dry-Hopped IPA",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Life is Like...Bourbon Barrel-aged Chocolate Cherry Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Mango Habanero IPA",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Oatmeal Raisin Cookie",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Passionfruit Guava Sour Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Penultimate Push Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Prickly Pear Guava Sour Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Rum Barrel-aged Final Push Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "aged on kopi luwak coffee"
+  },
+  {
+    "beer": "Rum Barrel-aged Marshal Zhukov's Imperial Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Rum Oak Oatmeal Raisin Cookie",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Rum White Oak Pineapple IPA",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Sour Cherry Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Strawberry Short Cake Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Warmer Winter Winter Warmer",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "White Oak Peach IPA",
+    "breweries": [
+      {
+        "name": "Cigar City Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Four Roses Barrel-aged Leon's Grandson's It's My Birthday Barley Wine",
+    "breweries": [
+      {
+        "name": "Cigar City Brewpub",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Jameson Barrel-aged Mud Hill Stout",
+    "breweries": [
+      {
+        "name": "Cigar City Brewpub",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Maple Cupcake Brown Ale",
+    "breweries": [
+      {
+        "name": "Cigar City Brewpub",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Milk Stout",
+    "breweries": [
+      {
+        "name": "Duck Rabbit Craft Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Farmville",
+          "state": "NC"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Baltic Porter",
+    "breweries": [
+      {
+        "name": "Duck Rabbit Craft Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Farmville",
+          "state": "NC"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Category 5 IPA",
+    "breweries": [
+      {
+        "name": "Due South Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Boynton Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Imperial Caramel Cream Ale",
+    "breweries": [
+      {
+        "name": "Due South Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Boynton Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Mariana Trench Imperial Stout",
+    "breweries": [
+      {
+        "name": "Due South Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Boynton Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Saigon Blonde",
+    "breweries": [
+      {
+        "name": "Due South Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Boynton Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Head Hunter India Pale Ale",
+    "breweries": [
+      {
+        "name": "Fat Head's Brewery",
+        "location": {
+          "country": "USA",
+          "city": "North Olmstead",
+          "state": "OH"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Bumble Berry Honey Blueberry Ale",
+    "breweries": [
+      {
+        "name": "Fat Head's Brewery",
+        "location": {
+          "country": "USA",
+          "city": "North Olmstead",
+          "state": "OH"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Olde Ale 813",
+    "breweries": [
+      {
+        "name": "Florida Avenue Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Cask beer aged on wood"
+  },
+  {
+    "beer": "Red's Rye IPA",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Centennial IPA",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "All Day IPA",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Bolt Cutter Barley Wine",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": "15th Anniversary"
+  },
+  {
+    "beer": "Smoked Porter",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Boyl'r Mak'r",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Imperial Stout",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Sweet Repute",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "KBS",
+    "breweries": [
+      {
+        "name": "Founders Brewing Co.",
+        "location": {
+          "country": "USA",
+          "city": "Grand Rapids",
+          "state": "MI"
+        }
+      }
+    ],
+    "beerNotes": "2013"
+  },
+  {
+    "beer": "Last Snow Porter",
+    "breweries": [
+      {
+        "name": "Funky Buddha Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Oakland Park",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Maple Bacon Coffee Porter",
+    "breweries": [
+      {
+        "name": "Funky Buddha Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Oakland Park",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Grodzilla",
+    "breweries": [
+      {
+        "name": "Gravity Brewlab",
+        "location": {
+          "country": "USA",
+          "city": "Miami",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Malt Licker",
+    "breweries": [
+      {
+        "name": "Gravity Brewlab",
+        "location": {
+          "country": "USA",
+          "city": "Miami",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Marathon in Your Mouth",
+    "breweries": [
+      {
+        "name": "Gravity Brewlab",
+        "location": {
+          "country": "USA",
+          "city": "Miami",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Kenyan coffee bean Berliner Weisse"
+  },
+  {
+    "beer": "Sour Cherry Basque Cider",
+    "breweries": [
+      {
+        "name": "Gravity Brewlab",
+        "location": {
+          "country": "USA",
+          "city": "Miami",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Green Bench IPA",
+    "breweries": [
+      {
+        "name": "Green Bench Brewing",
+        "location": {
+          "country": "USA",
+          "city": "St. Petersburg",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Rye Saison",
+    "breweries": [
+      {
+        "name": "Green Bench Brewing",
+        "location": {
+          "country": "USA",
+          "city": "St. Petersburg",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Saison de Banc Noir",
+    "breweries": [
+      {
+        "name": "Green Bench Brewing",
+        "location": {
+          "country": "USA",
+          "city": "St. Petersburg",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Sour Brown Ale",
+    "breweries": [
+      {
+        "name": "Green Bench Brewing",
+        "location": {
+          "country": "USA",
+          "city": "St. Petersburg",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Surrealist IPA",
+    "breweries": [
+      {
+        "name": "Green Bench Brewing",
+        "location": {
+          "country": "USA",
+          "city": "St. Petersburg",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Florida Saison",
+    "breweries": [
+      {
+        "name": "Green Room Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Jacksonville Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Oaked Double Overhead DIPA",
+    "breweries": [
+      {
+        "name": "Green Room Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Jacksonville Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Big Hugs",
+    "breweries": [
+      {
+        "name": "Half Acre Beer Co",
+        "location": {
+          "country": "USA",
+          "city": "Chicago",
+          "state": "IL"
+        }
+      }
+    ],
+    "beerNotes": "Imperial Stout with coffee"
+  },
+  {
+    "beer": "Shewolf IPA",
+    "breweries": [
+      {
+        "name": "Half Acre Beer Co",
+        "location": {
+          "country": "USA",
+          "city": "Chicago",
+          "state": "IL"
+        }
+      }
+    ],
+    "beerNotes": "collab with Three Floyds Brewing"
+  },
+  {
+    "beer": "Bourbon Barrel-aged Gingerbread Stout",
+    "breweries": [
+      {
+        "name": "Hardywood Park Craft Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Richmond",
+          "state": "VA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "BA Nothing",
+    "breweries": [
+      {
+        "name": "J Wakefield Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Wynwood",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "DFPF",
+    "breweries": [
+      {
+        "name": "J Wakefield Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Wynwood",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Kryptoweiss",
+    "breweries": [
+      {
+        "name": "J Wakefield Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Wynwood",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Miami Madness",
+    "breweries": [
+      {
+        "name": "J Wakefield Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Wynwood",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Bourbon Barrel Dark Apparition - Coffee",
+    "breweries": [
+      {
+        "name": "Jackie O's",
+        "location": {
+          "country": "USA",
+          "city": "Athens",
+          "state": "OH"
+        }
+      }
+    ],
+    "beerNotes": "aged in Woodford Reserve barrels w/coffee added"
+  },
+  {
+    "beer": "Bustle in Your Hedgerow Pale Ale",
+    "breweries": [
+      {
+        "name": "Late Start Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Kiwi Florida Weisse",
+    "breweries": [
+      {
+        "name": "Late Start Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Rye Kolsch",
+    "breweries": [
+      {
+        "name": "Late Start Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Tequila Sunrise Florida Weisse",
+    "breweries": [
+      {
+        "name": "Late Start Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Tampa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Betelgeuze",
+    "breweries": [
+      {
+        "name": "Mikkeller",
+        "location": {
+          "country": "USA",
+          "city": "Copenhagen",
+          "state": "Denmark"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Man in the Moon",
+    "breweries": [
+      {
+        "name": "Mikkeller",
+        "location": {
+          "country": "USA",
+          "city": "Copenhagen",
+          "state": "Denmark"
+        }
+      }
+    ],
+    "beerNotes": "barrel-aged imperial stout"
+  },
+  {
+    "beer": "La Folie",
+    "breweries": [
+      {
+        "name": "New Belgium Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Ft. Collins",
+          "state": "CO"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Love's Leopold",
+    "breweries": [
+      {
+        "name": "New Belgium Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Ft. Collins",
+          "state": "CO"
+        }
+      }
+    ],
+    "beerNotes": "Blackberry Whiskey Barrel-aged La Folie"
+  },
+  {
+    "beer": "Heavenly Oraz Burton",
+    "breweries": [
+      {
+        "name": "Oakshire Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Eugene",
+          "state": "OR"
+        }
+      }
+    ],
+    "beerNotes": "Heaven Hill Barrel-Aged Russian Imperial Stout"
+  },
+  {
+    "beer": "Dale's Pale Ale",
+    "breweries": [
+      {
+        "name": "Oskar Blues",
+        "location": {
+          "country": "USA",
+          "city": "Brevard",
+          "state": "NC"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Old Chub Scotch Ale",
+    "breweries": [
+      {
+        "name": "Oskar Blues",
+        "location": {
+          "country": "USA",
+          "city": "Brevard",
+          "state": "NC"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Whiskey Barrel-aged Old Chub Scotch Ale",
+    "breweries": [
+      {
+        "name": "Oskar Blues",
+        "location": {
+          "country": "USA",
+          "city": "Brevard",
+          "state": "NC"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Abraxas Mexican Chocolate Stout",
+    "breweries": [
+      {
+        "name": "Perennial Artisan Ales",
+        "location": {
+          "country": "USA",
+          "city": "St. Louis",
+          "state": "MO"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "La Boheme Belgian Brown Wild Ale",
+    "breweries": [
+      {
+        "name": "Perennial Artisan Ales",
+        "location": {
+          "country": "USA",
+          "city": "St. Louis",
+          "state": "MO"
+        }
+      }
+    ],
+    "beerNotes": "aged in wine barrels for 2 years with sour cherries"
+  },
+  {
+    "beer": "Chocolate Peanut Butter Stout",
+    "breweries": [
+      {
+        "name": "Rapp Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Seminole",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Gose",
+    "breweries": [
+      {
+        "name": "Rapp Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Seminole",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Bourbon Barrel All Aboard Anniversary Stout",
+    "breweries": [
+      {
+        "name": "Rivertowne Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Export",
+          "state": "PA"
+        }
+      }
+    ],
+    "beerNotes": "Woodford reserve barrels with coffee added"
+  },
+  {
+    "beer": "Hala Kahiki Pineapple Beer",
+    "breweries": [
+      {
+        "name": "Rivertowne Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Export",
+          "state": "PA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Patrick's Poison Imperial Irish Red",
+    "breweries": [
+      {
+        "name": "Rivertowne Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Export",
+          "state": "PA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Crepuscule",
+    "breweries": [
+      {
+        "name": "Saint Somewhere Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tarpon Springs",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "E'te' Sans Fin",
+    "breweries": [
+      {
+        "name": "Saint Somewhere Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tarpon Springs",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Lectio Divina",
+    "breweries": [
+      {
+        "name": "Saint Somewhere Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tarpon Springs",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Scourge",
+    "breweries": [
+      {
+        "name": "Saint Somewhere Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tarpon Springs",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "sour Serge"
+  },
+  {
+    "beer": "Soleil Reverie",
+    "breweries": [
+      {
+        "name": "Saint Somewhere Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Tarpon Springs",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "Collab with Intangible Ales"
+  },
+  {
+    "beer": "Barrel-aged Big Hoppy Monster",
+    "breweries": [
+      {
+        "name": "Terrapin Beer",
+        "location": {
+          "country": "USA",
+          "city": "Athens",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Barrel-aged Monk's Revenge",
+    "breweries": [
+      {
+        "name": "Terrapin Beer",
+        "location": {
+          "country": "USA",
+          "city": "Athens",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Barrel-aged Moo Hoo",
+    "breweries": [
+      {
+        "name": "Terrapin Beer",
+        "location": {
+          "country": "USA",
+          "city": "Athens",
+          "state": "GA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Zombie Dust Pale Ale",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Space Station Middle Finger Pale Ale",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Yum Yum Pale Ale",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "War Mullet Double IPA",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Backmasking Oatmeal Stout",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "BLAKKR Imperial Black Ale",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Baller Stout",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Barrel-aged Behemoth Barleywine",
+    "breweries": [
+      {
+        "name": "Three Floyds Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Munster",
+          "state": "IN"
+        }
+      }
+    ],
+    "beerNotes": "2013"
+  },
+  {
+    "beer": "Morning Pourage American Stout",
+    "breweries": [
+      {
+        "name": "Three Palms Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Brandon",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Smoked Cherry Sour Saison",
+    "breweries": [
+      {
+        "name": "Three Palms Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Brandon",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "collab with JDub's Brewing Company"
+  },
+  {
+    "beer": "Going the Distance Session IPA",
+    "breweries": [
+      {
+        "name": "Three Palms Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Brandon",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Single Hopped Series #5 - Galaxy",
+    "breweries": [
+      {
+        "name": "Three Palms Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Brandon",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "American pale ale"
+  },
+  {
+    "beer": "Almond Stout",
+    "breweries": [
+      {
+        "name": "Tomoka Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Ormond Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": "collab with Cask & Larder"
+  },
+  {
+    "beer": "Pumpernickel Porter",
+    "breweries": [
+      {
+        "name": "Tomoka Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Ormond Beach",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Assassin 2013",
+    "breweries": [
+      {
+        "name": "Toppling Goliath Brewing Co",
+        "location": {
+          "country": "USA",
+          "city": "Decorah",
+          "state": "IA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Golden Nugget IPA",
+    "breweries": [
+      {
+        "name": "Toppling Goliath Brewing Co",
+        "location": {
+          "country": "USA",
+          "city": "Decorah",
+          "state": "IA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "pseudoSue Pale Ale",
+    "breweries": [
+      {
+        "name": "Toppling Goliath Brewing Co",
+        "location": {
+          "country": "USA",
+          "city": "Decorah",
+          "state": "IA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Sosus DIPA",
+    "breweries": [
+      {
+        "name": "Toppling Goliath Brewing Co",
+        "location": {
+          "country": "USA",
+          "city": "Decorah",
+          "state": "IA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Zeelander IPA",
+    "breweries": [
+      {
+        "name": "Toppling Goliath Brewing Co",
+        "location": {
+          "country": "USA",
+          "city": "Decorah",
+          "state": "IA"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Hop Nosh IPA",
+    "breweries": [
+      {
+        "name": "Uinta Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Salt Lake City",
+          "state": "UT"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Labyrinth Wood-Aged Quadruple Black Ale",
+    "breweries": [
+      {
+        "name": "Uinta Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Salt Lake City",
+          "state": "UT"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Tinder Rauchbier",
+    "breweries": [
+      {
+        "name": "Uinta Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Salt Lake City",
+          "state": "UT"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Gozu",
+    "breweries": [
+      {
+        "name": "Westbrook Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Mt. Pleasant",
+          "state": "SC"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Mexican Cake Imperial Stout",
+    "breweries": [
+      {
+        "name": "Westbrook Brewing",
+        "location": {
+          "country": "USA",
+          "city": "Mt. Pleasant",
+          "state": "SC"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Bell Boy Porter",
+    "breweries": [
+      {
+        "name": "Wild Rover Pub & Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Odessa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Czarina, Czarina Russian Imperial Stout",
+    "breweries": [
+      {
+        "name": "Wild Rover Pub & Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Odessa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "Let it ESB",
+    "breweries": [
+      {
+        "name": "Wild Rover Pub & Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Odessa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  },
+  {
+    "beer": "The Mild Rover",
+    "breweries": [
+      {
+        "name": "Wild Rover Pub & Brewery",
+        "location": {
+          "country": "USA",
+          "city": "Odessa",
+          "state": "FL"
+        }
+      }
+    ],
+    "beerNotes": null
+  }
+]
+}
