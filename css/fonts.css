@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'aller';
+    src: url('../fonts/aller/allerdisplay-webfont.eot');
+    src: url('../fonts/aller/allerdisplay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller/allerdisplay-webfont.woff') format('woff'),
+         url('../fonts/aller/allerdisplay-webfont.ttf') format('truetype'),
+         url('../fonts/aller/allerdisplay-webfont.svg#aller_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
