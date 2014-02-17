@@ -45,7 +45,7 @@ buttons = function()
 		$("#response").html("<ul id='location-list'></ul>");
 		$.each(locations, function(index, location)
 		{
-			$("#location-list").append("<li>" + location.city + "</li>")
+			$("#location-list").append("<li><a href='" + location.city + "'>" + location.city + "</a><a href='" + location.state + "'>" + location.state + "</a><a href='" + location.country + "'>" + location.country + "</a></li>")
 		});
 	};
 
@@ -56,7 +56,7 @@ buttons = function()
 		$("#response").html("<ul id='brewery-list'></ul>");
 		$.each(breweries, function(index, brewery)
 		{
-			$("#brewery-list").append("<li>" + brewery.name + "</li>")
+			$("#brewery-list").append("<li><a href='" + brewery.name + "'>" + brewery.name + "</a></li>")
 		});
 	};
 
