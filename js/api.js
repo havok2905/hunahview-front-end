@@ -49,6 +49,11 @@ api = function()
 		return privateGetRequest(path);
 	};
 
+	publicGetBeersByBrewery = function(event, brewery)
+	{
+
+	};
+
 	publicGetBreweries = function(event)
 	{
 		//path = "http://tmclean.net/hunahview/services/api/" + event + "/breweries/";
@@ -61,6 +66,7 @@ api = function()
 		getLocations : publicGetLocations,
 		getBeers : publicGetBeers,
 		getBeersByLocation : publicGetBeersByLocation,
+		getBeersByBrewery : publicGetBeersByBrewery,
 		getBreweries : publicGetBreweries
 	}
 }();
