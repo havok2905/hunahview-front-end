@@ -10,14 +10,12 @@ api = function()
 	{
 		$.ajax({
 			url  : path,
-			dataType : "text",
+			dataType : "json",
 			async : true
 		}).complete(function(data)
 		{
-			callback( $.parseJSON(data.responseText) );
+			callback( data.responseJSON );
 		});
-
-		return result;
 	};
 
 	publicGetEvents = function(callback)
