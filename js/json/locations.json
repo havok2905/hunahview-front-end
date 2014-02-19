@@ -1,5 +1,4 @@
-{
-	"locations" : [
+[
   {
     "country": "USA",
     "city": "Dunedin",
@@ -186,4 +185,3 @@
     "state": "FL"
   }
 ]
-}

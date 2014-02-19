@@ -1,5 +1,4 @@
-{
-	"breweries" : [
+[
   {
     "name": "7venth Sun Brewery",
     "location": {
@@ -345,4 +344,3 @@
     }
   }
 ]
-}

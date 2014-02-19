@@ -1,5 +1,4 @@
-{
-  "beers" : [
+[
   {
     "beer": "Mangrove DIPA",
     "breweries": [
@@ -2465,4 +2464,3 @@
     "beerNotes": null
   }
 ]
-}

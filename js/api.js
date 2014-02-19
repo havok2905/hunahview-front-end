@@ -6,59 +6,55 @@
 
 api = function()
 {
-	privateGetRequest = function(path)
+	privateGetRequest = function(path, callback)
 	{
-		result = null;
-
 		$.ajax({
 			url  : path,
 			dataType : "text",
-			async : false
+			async : true
 		}).complete(function(data)
 		{
-			result = $.parseJSON(data.responseText);
+			callback( $.parseJSON(data.responseText) );
 		});
-
-		return result;
 	};
 
-	publicGetEvents = function()
+	publicGetEvents = function(callback)
 	{
-		//path = "http://tmclean.net/hunahview/services/api/events";
-		path = "js/json/events.json";
-		return privateGetRequest(path);
+		path = "http://tmclean.net/hunahview/services/api/events";
+		//path = "js/json/events.json";
+		privateGetRequest(path, callback);
 	};
 
-	publicGetLocations = function(event)
+	publicGetLocations = function(event, callback)
 	{
-		//path = "http://tmclean.net/hunahview/services/api/" + event + "/locations";
-		path = "js/json/locations.json";
-		return privateGetRequest(path);
+		path = "http://tmclean.net/hunahview/services/api/" + event + "/locations";
+		//path = "js/json/locations.json";
+		privateGetRequest(path, callback);
 	};
 
-	publicGetBeers = function(event)
+	publicGetBeers = function(event, callback)
 	{
-		//path = "http://tmclean.net/hunahview/services/api/" + event + "/beers/";
-		path = "js/json/beers.json";
-		return privateGetRequest(path);
+		path = "http://tmclean.net/hunahview/services/api/" + event + "/beers/";
+		//path = "js/json/beers.json";
+		privateGetRequest(path, callback);
 	};
 
-	publicGetBeersByLocation = function(event, location)
+	publicGetBeersByLocation = function(event, location, callback)
 	{
 		path = "http://tmclean.net/hunahview/services/api/" + event + "/beers/" + location;
-		return privateGetRequest(path);
+		privateGetRequest(path, callback);
 	};
 
-	publicGetBeersByBrewery = function(event, brewery)
+	publicGetBeersByBrewery = function(event, brewery, callback)
 	{
 
 	};
 
-	publicGetBreweries = function(event)
+	publicGetBreweries = function(event, callback)
 	{
 		//path = "http://tmclean.net/hunahview/services/api/" + event + "/breweries/";
 		path = "js/json/breweries.json";
-		return privateGetRequest(path);
+		privateGetRequest(path, callback);
 	};
 
 	return {
