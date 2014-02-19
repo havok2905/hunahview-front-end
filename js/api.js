@@ -16,6 +16,8 @@ api = function()
 		{
 			callback( $.parseJSON(data.responseText) );
 		});
+
+		return result;
 	};
 
 	publicGetEvents = function(callback)
