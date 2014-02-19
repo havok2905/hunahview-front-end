@@ -4,9 +4,11 @@
 
 */
 
-api = function()
+var api = (function()
 {
-	privateGetRequest = function(path, callback)
+	publicCurrentEvent = "hunahpu2014";
+
+	function privateGetRequest(path, callback)
 	{
 		$.ajax({
 			url  : path,
@@ -16,48 +18,47 @@ api = function()
 		{
 			callback( $.parseJSON(data.responseText) );
 		});
-
-		return result;
 	};
 
-	publicGetEvents = function(callback)
+	function publicGetEvents(callback)
 	{
 		path = "http://tmclean.net/hunahview/services/api/events";
 		//path = "js/json/events.json";
 		privateGetRequest(path, callback);
 	};
 
-	publicGetLocations = function(event, callback)
+	function publicGetLocations(event, callback)
 	{
 		path = "http://tmclean.net/hunahview/services/api/" + event + "/locations";
 		//path = "js/json/locations.json";
 		privateGetRequest(path, callback);
-	};
+	}
 
-	publicGetBeers = function(event, callback)
+	function publicGetBeers(event, callback)
 	{
 		path = "http://tmclean.net/hunahview/services/api/" + event + "/beers/";
 		//path = "js/json/beers.json";
 		privateGetRequest(path, callback);
-	};
+	}
 
-	publicGetBeersByLocation = function(event, location, callback)
+ 	function publicGetBeersByLocation(event, location, callback)
 	{
 		path = "http://tmclean.net/hunahview/services/api/" + event + "/beers/" + location;
 		privateGetRequest(path, callback);
-	};
+	}
 
-	publicGetBeersByBrewery = function(event, brewery, callback)
+ 	function publicGetBeersByBrewery(event, brewery, callback)
 	{
+		path = "http://tmclean.net/hunahview/services/api/" + event + "/beers?brewery=" + brewery;
+		privateGetRequest(path, callback);
+	}
 
-	};
-
-	publicGetBreweries = function(event, callback)
+	function publicGetBreweries(event, callback)
 	{
 		//path = "http://tmclean.net/hunahview/services/api/" + event + "/breweries/";
 		path = "js/json/breweries.json";
 		privateGetRequest(path, callback);
-	};
+	}
 
 	return {
 		getEvents : publicGetEvents,
@@ -65,6 +66,7 @@ api = function()
 		getBeers : publicGetBeers,
 		getBeersByLocation : publicGetBeersByLocation,
 		getBeersByBrewery : publicGetBeersByBrewery,
-		getBreweries : publicGetBreweries
+		getBreweries : publicGetBreweries,
+		currentEvent : publicCurrentEvent
 	}
-}();
+})();

@@ -4,11 +4,9 @@
 
 */
 
-buttons = function()
+var buttons = (function()
 {
-	privateEvent = "hunahpu2014";
-
-	publicRegisterEventListeners = function()
+	function publicRegisterEventListeners()
 	{
 		$(".beer-button").click(function(event)
 		{
@@ -29,9 +27,9 @@ buttons = function()
 		});
 	};
 
-	privateHandleBeerButton = function()
+ 	function privateHandleBeerButton()
 	{
-		api.getBeers(privateEvent, function( beers ){
+		api.getBeers(api.currentEvent, function( beers ){
 			
 			$("#response").html("<ul id='beer-list'></ul>");
 			
@@ -43,36 +41,40 @@ buttons = function()
 
 	};
 
-	privateHandleLocationButton = function()
+	function privateHandleLocationButton()
 	{
-		api.getLocations(privateEvent, function( locations ){
+		api.getLocations(api.currentEvent, function( locations ){
 
 			$("#response").html("<ul id='location-list'></ul>");
 
 			$.each(locations, function(index, location)
 			{
-				$("#location-list").append("<li><a href='" + location.city + "'>" + location.city + "</a><a href='" + location.state + "'>" + location.state + "</a><a href='" + location.country + "'>" + location.country + "</a></li>")
+				$("#location-list").append("<li><a data-tag='city' href='" + location.city + "'>" + location.city + "</a><a data-tag='state' href='" + location.state + "'>" + location.state + "</a><a data-tag='country' href='" + location.country + "'>" + location.country + "</a></li>")
 			});
+
+			listItem.registerEventListeners();
 
 		});
 
-	};
+	}
 
-	privateHandleBreweryButton = function()
+	function privateHandleBreweryButton ()
 	{
-		breweries = api.getBreweries(privateEvent, function( breweries ){
+		breweries = api.getBreweries(api.currentEvent, function( breweries ){
 
 			$("#response").html("<ul id='brewery-list'></ul>");
 			
 			$.each(breweries, function(index, brewery)
 			{
-				$("#brewery-list").append("<li><a href='" + brewery.name + "'>" + brewery.name + "</a></li>")
+				$("#brewery-list").append("<li><a data-tag='brewery' href='" + brewery.name + "'>" + brewery.name + "</a></li>")
 			});
+
+			listItem.registerEventListeners();
 		});
 
-	};
+	}
 
 	return {
 		registerEventListeners : publicRegisterEventListeners
 	}
-}();
+})();

@@ -1,31 +1,55 @@
-listItem = function(elements)
+var listItem = (function(elements)
 {
 	publicJqueryElements = elements;
 
-	publicRegisterEvents = function(publicJqueryElements)
+	function publicRegisterEventListeners(publicJqueryElements)
 	{
-		
-	};
 
-	privateHandleAnchor = function(anchor)
+		$("#location-list a, #brewery-list a").click(function(event)
+		{	
+			event.preventDefault();
+			anchor = {
+				val : $(this).text(),
+				tag : $(this).attr("data-tag")
+			};
+			console.log(anchor);
+			privateHandleAnchor(anchor);
+		});
+	}
+
+	function privateHandleAnchor(anchor)
 	{
 		switch(anchor.tag)
 		{
-			case : "city"
+			case "city":
+			case "state":
+			case "country":
+				api.getBeersByLocation(api.currentEvent, anchor.val, function( beers )
+				{
+					privatePrintBeerList(beers);
+				});
 				break;
-			case : "state"
-				break;
-			case : "country"
-				break;
-			case : "brewery"
-				break;
-			default
+			case "brewery":
+				api.getBeersByBrewery(api.currentEvent, anchor.val, function( beers )
+				{
+					console.log(beers);
+					privatePrintBeerList(beers);
+				});
 				break;
 		}
-	};
+	}
+
+	function privatePrintBeerList(beers)
+	{
+		$("#response").html("<ul id='beer-list'></ul>");
+		$.each(beers, function(index, beer)
+		{
+			$("#beer-list").append("<li><input type='checkbox'/><span>" + beer.beer + "</span></li>");
+		});	
+	}
 
 	return {
 		jqueryElements : publicJqueryElements,
-		registerEvents : publicRegisterEvents
+		registerEventListeners : publicRegisterEventListeners
 	}
-}();
+})();
