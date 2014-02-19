@@ -51,7 +51,7 @@ buttons = function()
 
 			$.each(locations, function(index, location)
 			{
-				$("#location-list").append("<li><a href='" + location.city + "'>" + location.city + "</a><a href='" + location.state + "'>" + location.state + "</a><a href='" + location.country + "'>" + location.country + "</a></li>")
+				$("#location-list").append("<li><a href='" + location.city + "'>" + location.city + "</a>&nbsp;<a href='" + location.state + "'>" + location.state + "</a>&nbsp;<a href='" + location.country + "'>" + location.country + "</a></li>")
 			});
 
 		});
