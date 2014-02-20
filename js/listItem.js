@@ -44,7 +44,7 @@ var listItem = (function(elements)
 		$("#response").html("<ul id='beer-list'></ul>");
 		$.each(beers, function(index, beer)
 		{
-			$("#beer-list").append("<li><input type='checkbox'/><span>" + beer.beer + "</span></li>");
+			$("#beer-list").append("<li><label class='checkbox'><input type='checkbox'/><span>" + beer.beer + "</span></label></li>");
 		});	
 	}
 
