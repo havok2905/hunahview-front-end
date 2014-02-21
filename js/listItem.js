@@ -13,8 +13,9 @@ var listItem = (function()
 			privateHandleAnchor(anchor);
 		});
 
-		$("#beer-list a").click(function(event)
+		$("#beer-list li").click(function(event)
 		{
+			$(".circle", this).toggleClass("selected");
 			event.preventDefault();
 		});
 	}
@@ -48,7 +49,7 @@ var listItem = (function()
 		$("#response").html("<ul id='beer-list'></ul>");
 		$.each(beers, function(index, beer)
 		{
-			$("#beer-list").append("<li><label class='checkbox'><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><div class='circle'></div><p>" + beer.beerNotes + "</p></label></li>");
+			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><div class='circle'></div><p>" + beer.beerNotes + "</p></li>");
 		});	
 	}
 
