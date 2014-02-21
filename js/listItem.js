@@ -3,14 +3,19 @@ var listItem = (function()
 	function publicRegisterEventListeners()
 	{
 
-		$("#location-list a, #brewery-list a").click(function(event)
+		$("#location-list li, #brewery-list li").click(function(event)
 		{	
-			event.preventDefault();
+			console.log($("a", this));
 			anchor = {
-				val : $(this).text(),
-				tag : $(this).attr("data-tag")
+				val : $("a", this).attr("href"),
+				tag : $("a", this).attr("data-tag")
 			};
 			privateHandleAnchor(anchor);
+		});
+
+		$("#response a").click(function(event)
+		{
+			event.preventDefault();
 		});
 
 		$("#beer-list li").click(function(event)

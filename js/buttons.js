@@ -51,7 +51,7 @@ var buttons = (function()
 
 			$.each(locations, function(index, location)
 			{
-				$("#location-list").append("<li><a data-tag='city' href='" + location.city + "'>" + location.city + "</a>&nbsp;<a data-tag='state' href='" + location.state + "'>" + location.state + "</a>&nbsp;<a data-tag='country' href='" + location.country + "'>" + location.country + "</a></li>");
+				$("#location-list").append("<li><a data-tag='city' href='" + location.city + "'>" + location.city + " " + location.state + " " + location.country + "</a></li>");
 			});
 
 			listItem.registerEventListeners();
