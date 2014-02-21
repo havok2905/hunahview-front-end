@@ -8,19 +8,19 @@ var buttons = (function()
 {
 	function publicRegisterEventListeners()
 	{
-		$(".beer-button").click(function(event)
+		$("#beer-button").click(function(event)
 		{
 			event.preventDefault();
 			privateHandleBeerButton();
 		});
 
-		$(".location-button").click(function(event)
+		$("#location-button").click(function(event)
 		{
 			event.preventDefault();
 			privateHandleLocationButton();
 		});
 
-		$(".brewery-button").click(function(event)
+		$("#brewery-button").click(function(event)
 		{
 			event.preventDefault();
 			privateHandleBreweryButton();
@@ -35,9 +35,9 @@ var buttons = (function()
 			
 			$.each(beers, function(index, beer)
 			{
-				$("#beer-list").append("<li><input type='checkbox'/><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><p>" + beer.beerNotes + "</p></li>");
-			});	
-
+				$("#beer-list").append("<li><label class='checkbox'><input type='checkbox'/><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><p>" + beer.beerNotes + "</p></label></li>");
+			});
+			
 			listItem.registerEventListeners();
 		});
 
