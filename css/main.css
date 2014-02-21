@@ -1,115 +1,162 @@
-*{
-	margin: 	0;
-	padding: 	0;
+/* 
+	GLOBAL
+*/
+
+* {
+	margin: 			0;
+	padding: 			0;
 }
 
 .clear{
-	clear:	both;
+	clear:				both;
 }
 
-body{
-	text-align: 	center;
-	margin-top: 	10px;
+.hidden{
+	display: 			none;
 }
 
-h1{
-	font-family: 	aller;
-	font-size: 		36px;
-	color: 			#c49760;
+
+/* 
+	CONTAINERS 
+*/
+
+body {
+	text-align: 		center;
+	background-color:	#eeeeee;
+	font-family: 		"aller";
 }
 
-.container{
-	max-width: 		1200px;
-	margin-left: 	auto;
-	margin-right:	auto;
+.modal {
+	display:    		none;
+    z-index:    		1000;
+    top:        		0;
+    left:       		0;
+    height:     		100%;
+    width:      		100%;
+    margin:     		0px;
+    border:     		0px;
+    background: 		rgba( 255, 255, 255, .8 ) 
+                		url('../img/ajax-loader.gif') 
+                		50% 50% 
+                		no-repeat;
 }
 
-.container ul li{
+body.loading {
+    overflow:			hidden;   
+}
+
+body.loading .modal {
+    display:			block;
+}
+
+.container {
+	margin-left: 		auto;
+	margin-right:		auto;
+}
+
+.container ul li {
+	list-style-type:	none;
 	text-align: 		left;
 	color: 				#222222;
 	font-family: 		arial;
 	font-size: 			18px;
 	padding-top: 		10px;
 	padding-bottom: 	10px;
-	list-style-type:	none;
 }
 
-.buttons{
-	margin-left: 	auto;
-	margin-right: 	auto;
-	margin-bottom: 	10px;
-	margin-top: 	10px;
-	display: 		inline-block;
+
+/*
+	NAVIGATION 
+*/
+
+header {
+	position: 			fixed;
+	width: 				100%;
+	padding-top: 		10px;
+	padding-bottom:		10px;
+
+	background: 		-rgb(216,168,57); /* Old browsers */
+	background: 		-moz-linear-gradient(top, rgba(216,168,57,1) 0%, rgba(185,137,26,1) 100%); /* FF3.6+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(216,168,57,1)), color-stop(100%,rgba(185,137,26,1))); /* Chrome,Safari4+ */
+	background: 		-webkit-linear-gradient(top, rgba(216,168,57,1) 0%,rgba(185,137,26,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: 		-linear-gradient(top, rgba(216,168,57,1) 0%,rgba(185,137,26,1) 100%); /* Opera 11.10+ */
+	background: 		-ms-linear-gradient(top, rgba(216,168,57,1) 0%,rgba(185,137,26,1) 100%); /* IE10+ */
+	background: 		linear-gradient(to bottom, rgba(216,168,57,1) 0%,rgba(185,137,26,1) 100%); /* W3C */
+	filter: 			progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8a839', endColorstr='#b9891a',GradientType=0 ); /* IE6-9 */
+	box-shadow:			0px 0px 5px 0px #333333;
 }
 
-.buttons li{
-	float: 				left;
-	list-style-type: 	none;
+header li{
+	display: 			inline;
+	margin-right: 		10px;
+	margin-left:		10px;
 }
 
-.buttons a{
-	text-decoration: none;
-	color: 				#ffffff;
-	font-size: 			16px;
-	font-family: 		arial;
-	box-shadow: 		0px 5px 0px 0px #142a3e;
-	display: 			block;
-	border-radius: 		3px;
-	margin-right: 		5px;
-	margin-left: 		5px;
-	background-color: 	#4fa7f9;
-	text-align: 		center;
-	padding-top: 		20px;
+img {
+	width: 				60px;
+}
+
+
+/* 
+	LISTS
+*/
+
+#response {
+	padding-top: 		85px;
+}
+
+#beer-list p {
+	color:				#999999;
+	font-size:			12px;
+	margin-top:			5px;	
+}
+
+#response li {
+	background-color:	#ffffff;
+	border-top:			solid 2px #cccccc;
+	border-bottom:		solid 2px #cccccc;
+	box-shadow:			0px 0px 5px 0px #666666;
+
+	margin-top:			20px;
+	margin-bottom:		20px;
+	padding-top:		20px;
 	padding-bottom: 	20px;
-	width: 				100px;
+	padding-right: 		10px;
+	padding-left: 		10px;
 }
 
-.buttons a:hover, .buttons a:active{
-	box-shadow: 	0px 0px 0px 0px #142a3e;
-	margin-top: 	5px;
-	margin-bottom:	-5px;
+#response li a {
+	color:				#333333;
+	text-decoration:	none;
 }
 
-#beer-list p{
-	display: none;
+.circle {
+	display:			inline-block;
+	float: 				right;
+	height:				60px;
+	width:				60px;
+	border-radius: 		60px;
+
+	border: 			solid 3px #eeeeee;
+	background-color:	#ffffff;
+	box-shadow:			inset 0 0 5px #333333;
 }
 
-.modal {
-	display:    none;
-    z-index:    1000;
-    top:        0;
-    left:       0;
-    height:     100%;
-    width:      100%;
-    margin:     0px;
-    border:     0px;
-    background: rgba( 255, 255, 255, .8 ) 
-                url('../img/ajax-loader.gif') 
-                50% 50% 
-                no-repeat;
-}
-
-body.loading {
-    overflow:	hidden;   
-}
-
-body.loading .modal {
-    display:	block;
+.circle.selected {
+	background-color:	#851313;
 }
 
 
-.nav.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba( 255, 255, 255, .8 );
+/* HEADER */
+
+h1 {
+	float: 				left;
+	position:			absolute;
 }
 
-.nav > .navbar-inner {
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -o-border-radius: 0;
+h1 img {
+	width:				70px;
+	position:			relative;
+	top:				5px;
+
 }

@@ -3,12 +3,10 @@
 	<head>
 		<title>Hunahview</title>
 		
-		<link rel="stylesheet" href="css/bootstrap-combined.min.css"/>
 		<link rel="stylesheet" href="css/fonts.css"/>
 		<link rel="stylesheet" href="css/main.css"/>
 
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/api.js"></script>
 		<script type="text/javascript" src="js/cellar.js"></script>
 		<script type="text/javascript" src="js/buttons.js"></script>
@@ -17,17 +15,17 @@
 	</head>
 	<body>
 		<div class="container">
-			<div id="nav-wrapper">
-				<ul class="nav nav-pills">
-					<li><img src="img/logo.png" alt="logo" width="25"/></li>
-					<li><a href="#" id="beer-button">beers</a></li>
-					<li><a href="#" id="location-button">locations</a></li>
-					<li><a href="#" id="brewery-button">breweries</a></li>
-				</ul>
-			</div>
-			<div class="row">
-				<div class="clear"></div>
-			</div>
+			<header>
+				<h1><span class="hidden">Hunahview</span><img src="img/logo.png" alt="logo"/></h1>
+				<nav>
+					<ul>
+						<li><a href="#" id="beer-button"><img src="img/beer.png" alt="beer icon"/></a></li>
+						<li><a href="#" id="location-button"><img src="img/location.png" alt="location icon"/></a></li>
+						<li><a href="#" id="brewery-button"><img src="img/brewery.png" alt="brewery icon"/></a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="clear"></div>
 			<div>
 				<div id="response" class="container"></div>
 			</div>
