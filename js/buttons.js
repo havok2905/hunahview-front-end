@@ -35,8 +35,10 @@ var buttons = (function()
 			
 			$.each(beers, function(index, beer)
 			{
-				$("#beer-list").append("<li><input type='checkbox'/><span>" + beer.beer + "</span></li>")
+				$("#beer-list").append("<li><input type='checkbox'/><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><p>" + beer.beerNotes + "</p></li>");
 			});	
+
+			listItem.registerEventListeners();
 		});
 
 	};
