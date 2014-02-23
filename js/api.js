@@ -2,6 +2,8 @@
 	
 	API Wrapper Module
 
+	
+
 */
 
 var api = (function()
@@ -55,8 +57,8 @@ var api = (function()
 
 	function publicGetBreweries(event, callback)
 	{
-		//path = "http://tmclean.net/hunahview/services/api/" + event + "/breweries/";
-		path = "js/json/breweries.json";
+		path = "http://tmclean.net/hunahview/services/api/" + event + "/breweries/";
+		//path = "js/json/breweries.json";
 		privateGetRequest(path, callback);
 	}
 
