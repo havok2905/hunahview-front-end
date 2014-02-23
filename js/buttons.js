@@ -30,15 +30,10 @@ var buttons = (function()
  	function privateHandleBeerButton()
 	{
 		api.getBeers(api.currentEvent, function( beers ){
-			
-			$("#response").html("<ul id='beer-list'></ul>");
-			
-			$.each(beers, function(index, beer)
-			{
-				$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><div class='circle'></div><p>" + beer.beerNotes + "</p></li>");
-			});
-			
+
+			cellar.printBeerList(beers);
 			listItem.registerEventListeners();
+
 		});
 
 	};
