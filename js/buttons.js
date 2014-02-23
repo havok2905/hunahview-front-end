@@ -32,10 +32,7 @@ var buttons = (function()
 		api.getBeers(api.currentEvent, function( beers ){
 
 			cellar.printBeerList(beers);
-			listItem.registerEventListeners();
-
 		});
-
 	};
 
 	function privateHandleLocationButton()

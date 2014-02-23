@@ -21,7 +21,6 @@ var listItem = (function()
 		$("#beer-list li").click(function(event)
 		{
 			$(".circle", this).toggleClass("selected");
-			event.preventDefault();
 		});
 	}
 
@@ -35,15 +34,12 @@ var listItem = (function()
 				api.getBeersByLocation(api.currentEvent, anchor.val, function( beers )
 				{
 					cellar.printBeerList(beers);
-					publicRegisterEventListeners();
 				});
 				break;
 			case "brewery":
 				api.getBeersByBrewery(api.currentEvent, anchor.val, function( beers )
 				{
-					console.log(beers);
 					cellar.printBeerList(beers);
-					publicRegisterEventListeners();
 				});
 				break;
 		}

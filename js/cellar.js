@@ -22,6 +22,7 @@ var cellar = (function()
 		{
 			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><div class='circle'></div><p>" + beer.beerNotes + "</p></li>");
 		});
+		listItem.registerEventListeners();
 	}
 
 	return {
