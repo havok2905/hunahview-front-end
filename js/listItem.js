@@ -21,7 +21,6 @@ var listItem = (function()
 		$("#beer-list li").click(function(event)
 		{
 			$(".circle", this).toggleClass("selected");
-			event.preventDefault();
 		});
 	}
 
@@ -34,28 +33,16 @@ var listItem = (function()
 			case "country":
 				api.getBeersByLocation(api.currentEvent, anchor.val, function( beers )
 				{
-					privatePrintBeerList(beers);
-					publicRegisterEventListeners();
+					cellar.printBeerList(beers);
 				});
 				break;
 			case "brewery":
 				api.getBeersByBrewery(api.currentEvent, anchor.val, function( beers )
 				{
-					console.log(beers);
-					privatePrintBeerList(beers);
-					publicRegisterEventListeners();
+					cellar.printBeerList(beers);
 				});
 				break;
 		}
-	}
-
-	function privatePrintBeerList(beers)
-	{
-		$("#response").html("<ul id='beer-list'></ul>");
-		$.each(beers, function(index, beer)
-		{
-			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><div class='circle'></div><p>" + beer.beerNotes + "</p></li>");
-		});	
 	}
 
 	return {

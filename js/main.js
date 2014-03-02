@@ -7,5 +7,9 @@ $(document).ready(function()
     	ajaxStop: function() { body.removeClass("loading"); }    
 	});
 
+	api.getBeers(api.currentEvent, function( beers ){
+		cellar.printBeerList(beers);
+	});
+
 	buttons.registerEventListeners();
 });
