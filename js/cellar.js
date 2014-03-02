@@ -21,7 +21,18 @@ var cellar = (function()
 		$.each(beers, function(index, beer)
 		{
 			beer.beerNotes == null ? beerNotes = "N/A" : beerNotes = beer.beerNotes;
-			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beer.beer + "</a><div class='circle'></div><p>" + beerNotes + "</p></li>");
+
+			if(beer.beer.length >= 30)
+			{
+				beerName = beer.beer.substring(0,30);
+				beerName += "...";
+			}
+			else
+			{
+				beerName = beer.beer;
+			}
+
+			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beerName + "</a><div class='circle'></div><p>" + beerNotes + "</p></li>");
 		});
 		listItem.registerEventListeners();
 	}
