@@ -5,7 +5,6 @@ var listItem = (function()
 
 		$("#location-list li, #brewery-list li").click(function(event)
 		{	
-			console.log($("a", this));
 			anchor = {
 				val : $("a", this).attr("href"),
 				tag : $("a", this).attr("data-tag")
@@ -31,16 +30,10 @@ var listItem = (function()
 			case "city":
 			case "state":
 			case "country":
-				api.getBeersByLocation(api.currentEvent, anchor.val, function( beers )
-				{
-					cellar.printBeerList(beers);
-				});
+				cellarModel.printBeerListByLocation(anchor.val);
 				break;
 			case "brewery":
-				api.getBeersByBrewery(api.currentEvent, anchor.val, function( beers )
-				{
-					cellar.printBeerList(beers);
-				});
+				cellarModel.printBeerListByBrewery(anchor.val);
 				break;
 		}
 	}

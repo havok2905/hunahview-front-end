@@ -1,3 +1,24 @@
+
+history.pushState({"state" : "beers"}, "beers", null);
+
+window.onpopstate = function(event)
+{
+	event.preventDefault();
+	switch(history.state.state)
+	{
+		case "beers" :
+			cellarModel.printBeerList();
+			break;
+		case "locations" :
+			locationModel.printLocationsList();
+			break;
+		case "breweries" :
+			breweryModel.printBreweriesList();
+			break;
+	}
+};
+
+
 $(document).ready(function()
 {
 	body = $("body");
@@ -8,7 +29,7 @@ $(document).ready(function()
 	});
 
 	api.getBeers(api.currentEvent, function( beers ){
-		cellar.printBeerList(beers);
+		cellarModel.printBeerList(beers);
 	});
 
 	buttons.registerEventListeners();
