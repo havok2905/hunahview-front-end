@@ -57,7 +57,7 @@ var cellarModel = (function()
 	{
 		if(beerName.length >= 30)
 		{
-			beerName = beerName.substring(0,30);
+			beerName = beerName.substring(0,25);
 			beerName += "...";
 		}
 
