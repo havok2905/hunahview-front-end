@@ -1,6 +1,6 @@
 var breweryModel = (function()
 {
-	function publicPrintBreweriesList(breweries)
+	function publicPrintBreweriesList()
 	{
 		breweries = api.getBreweries(api.currentEvent, function( breweries ){
 			$("#response").html("<ul id='brewery-list'></ul>");
