@@ -25,6 +25,7 @@ var listItem = (function()
 
 	function privateHandleAnchor(anchor)
 	{
+		history.pushState({"state" : "beers"}, "beers", null);
 		switch(anchor.tag)
 		{
 			case "city":
