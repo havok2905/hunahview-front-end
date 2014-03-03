@@ -33,7 +33,6 @@ var cellarModel = (function()
 
 	function publicPrintBeerListByLocation(location)
 	{
-		console.log("publicPrintBeerListByLocation : " + location);
 		api.getBeersByLocation(api.currentEvent, location, function( beers )
 		{
 			privatePrintBeerPartial(beers);
@@ -42,7 +41,6 @@ var cellarModel = (function()
 
 	function privatePrintBeerPartial(beers)
 	{
-		console.log(beers);
 		$("#response").html("<ul id='beer-list'></ul>");
 		$.each(beers, function(index, beer)
 		{
