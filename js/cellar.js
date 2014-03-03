@@ -46,7 +46,7 @@ var cellarModel = (function()
 		{
 			beer.beerNotes == null ? beerNotes = "N/A" : beerNotes = beer.beerNotes;
 			beerName = privateSpliceBeerName(beer.beer);
-			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beerName + "</a><div class='circle'></div><p>" + beerNotes + "</p></li>");
+			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beerName + "</a><div class='circle'></div><p>" + beerNotes + "</p><p>" + beer.breweries[0].name + "</p><p>" + beer.breweries[0].location.city + ", " + beer.breweries[0].location.state + "</p></li>");
 		});
 		listItem.registerEventListeners();
 	}
