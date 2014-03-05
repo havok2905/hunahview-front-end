@@ -1,4 +1,3 @@
-localStorage.beers = {}
 history.pushState({"state" : "beers"}, "beers", null);
 
 window.onpopstate = function(event)

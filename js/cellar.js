@@ -4,7 +4,14 @@ var cellarModel = (function()
 
 	function publicGetStoredBeers()
 	{
-		return $.parseJSON(localStorage.beers);
+		if(localStorage.beers === undefined)
+		{
+			return {beers: {}};
+		}
+		else
+		{
+			return $.parseJSON(localStorage.beers);
+		}
 	}
 
 	function publicSetBeer(beer)
