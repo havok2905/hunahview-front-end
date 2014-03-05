@@ -19,6 +19,17 @@ var listItem = (function()
 
 		$("#beer-list li").click(function(event)
 		{
+			beer = $("a",this).attr("href");
+
+			if($(".circle", this).hasClass("selected"))
+			{
+				cellarModel.removeBeer(beer);
+			}
+			else
+			{
+				cellarModel.setBeer(beer);
+			}
+			
 			$(".circle", this).toggleClass("selected");
 		});
 	}

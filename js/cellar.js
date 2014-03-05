@@ -1,18 +1,22 @@
 var cellarModel = (function()
 {
+	publicBeerCellar = {beers: {}};
+
 	function publicGetStoredBeers()
 	{
-
+		return $.parseJSON(localStorage.beers);
 	}
 
-	function publicSetStoredBeer()
+	function publicSetBeer(beer)
 	{
-
+		publicBeerCellar.beers[beer] = (beer);
+		localStorage.beers = JSON.stringify(publicBeerCellar);
 	}
 
-	function publicRemoveStoredBeer()
+	function publicRemoveBeer(beer)
 	{
-
+		delete publicBeerCellar.beers[beer];
+		localStorage.beers = JSON.stringify(publicBeerCellar);
 	}
 
 	function publicPrintBeerList()
@@ -41,12 +45,32 @@ var cellarModel = (function()
 
 	function privatePrintBeerPartial(beers)
 	{
+		storedBeers = publicGetStoredBeers().beers;
+		console.log(storedBeers);
+
 		$("#response").html("<ul id='beer-list'></ul>");
 		$.each(beers, function(index, beer)
 		{
 			beer.beerNotes == null ? beerNotes = "&nbsp;" : beerNotes = beer.beerNotes;
 			beerName = privateSpliceBeerName(beer.beer);
-			$("#beer-list").append("<li><a data-tag='beer' href='" + beer.beer + "'>" + beerName + "</a><div class='circle'></div><p>" + beer.breweries[0].name + "</p><p>" + beer.breweries[0].location.city + ", " + beer.breweries[0].location.state + "</p><p>" + beerNotes + "</p></li>");
+
+			beerItem = $("<li></li>");
+			beerItem.append("<a data-tag='beer' href='" + beer.beer + "'>" + beerName + "</a>");
+
+			if(beer.beer in storedBeers)
+			{
+				beerItem.append("<div class='circle selected'></div>");
+			}
+			else
+			{
+				beerItem.append("<div class='circle'></div>");
+			}
+			
+			beerItem.append("<p>" + beer.breweries[0].name + "</p>");
+			beerItem.append("<p>" + beer.breweries[0].location.city + ", " + beer.breweries[0].location.state + "</p>");
+			beerItem.append("<p>" + beerNotes + "</p>")
+
+			$("#beer-list").append(beerItem);
 		});
 		listItem.registerEventListeners();
 	}
@@ -63,11 +87,12 @@ var cellarModel = (function()
 	}
 
 	return {
-		setStoredBeer : publicSetStoredBeer,
 		getStoredBeer : publicGetStoredBeers,
-		removeStoredBeer : publicRemoveStoredBeer,
+		setBeer : publicSetBeer,
+		removeBeer : publicRemoveBeer,
 		printBeerList : publicPrintBeerList,
 		printBeerListByLocation : publicPrintBeerListByLocation,
 		printBeerListByBrewery : publicPrintBeerListByBrewery,
+		beerCellar : publicBeerCellar
 	}
 })();
