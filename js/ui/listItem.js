@@ -22,7 +22,7 @@ var listItem = (function()
 
 		});
 
-		$("#beer-list li").dblclick(function(event)
+		$("#beer-list li").click(function(event)
 		{
 			beer = $("a",this).attr("href");
 			count = $(".circle span", this).text();
