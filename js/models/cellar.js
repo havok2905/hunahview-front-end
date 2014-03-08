@@ -2,30 +2,6 @@ var cellarModel = (function()
 {
 	publicBeerCellar = {beers: {}};
 
-	function publicGetStoredBeers()
-	{
-		if(localStorage.beers === undefined) 
-		{
-			return {beers: {}};
-		}
-		else
-		{
-			return $.parseJSON(localStorage.beers);
-		}
-	}
-
-	function publicSetBeer(beer)
-	{
-		publicBeerCellar.beers[beer] = (beer);
-		localStorage.beers = JSON.stringify(publicBeerCellar);
-	}
-
-	function publicRemoveBeer(beer)
-	{
-		delete publicBeerCellar.beers[beer];
-		localStorage.beers = JSON.stringify(publicBeerCellar);
-	}
-
 	function publicPrintBeerList()
 	{
 		api.getBeers(api.currentEvent, function( beers )
@@ -52,9 +28,6 @@ var cellarModel = (function()
 
 	function privatePrintBeerPartial(beers)
 	{
-		storedBeers = publicGetStoredBeers().beers;
-		console.log(storedBeers);
-
 		$("#response").html("<ul id='beer-list'></ul>");
 		$.each(beers, function(index, beer)
 		{
@@ -64,7 +37,7 @@ var cellarModel = (function()
 			beerItem = $("<li></li>");
 			beerItem.append("<a data-tag='beer' href='" + beer.beer + "'>" + beerName + "</a>");
 
-			if(beer.beer in storedBeers)
+			if(beer.beer in publicBeerCellar)
 			{
 				beerItem.append("<div class='circle selected'></div>");
 			}
@@ -72,7 +45,7 @@ var cellarModel = (function()
 			{
 				beerItem.append("<div class='circle'></div>");
 			}
-			
+
 			beerItem.append("<p>" + beer.breweries[0].name + "</p>");
 			beerItem.append("<p>" + beer.breweries[0].location.city + ", " + beer.breweries[0].location.state + "</p>");
 			beerItem.append("<p>" + beerNotes + "</p>")
@@ -94,9 +67,6 @@ var cellarModel = (function()
 	}
 
 	return {
-		getStoredBeer : publicGetStoredBeers,
-		setBeer : publicSetBeer,
-		removeBeer : publicRemoveBeer,
 		printBeerList : publicPrintBeerList,
 		printBeerListByLocation : publicPrintBeerListByLocation,
 		printBeerListByBrewery : publicPrintBeerListByBrewery,
