@@ -17,7 +17,12 @@ var listItem = (function()
 			event.preventDefault();
 		});
 
-		$("#beer-list li").click(function(event)
+		$("#beer-list-li").click(function(event)
+		{
+			
+		});
+
+		$("#beer-list li").dblclick(function(event)
 		{
 			beer = $("a",this).attr("href");
 
