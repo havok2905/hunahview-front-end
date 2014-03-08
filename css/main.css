@@ -1,4 +1,4 @@
-/* 
+/*
 	GLOBAL
 */
 
@@ -16,8 +16,8 @@
 }
 
 
-/* 
-	CONTAINERS 
+/*
+	CONTAINERS
 */
 
 body {
@@ -35,14 +35,14 @@ body {
     width:      		100%;
     margin:     		0px;
     border:     		0px;
-    background: 		rgba( 255, 255, 255, .8 ) 
-                		url('../img/ajax-loader.gif') 
-                		50% 50% 
+    background: 		rgba( 255, 255, 255, .8 )
+                		url('../img/ajax-loader.gif')
+                		50% 50%
                 		no-repeat;
 }
 
 body.loading {
-    overflow:			hidden;   
+    overflow:			hidden;
 }
 
 body.loading .modal {
@@ -67,7 +67,7 @@ body.loading .modal {
 
 
 /*
-	NAVIGATION 
+	NAVIGATION
 */
 
 header {
@@ -99,7 +99,7 @@ img {
 }
 
 
-/* 
+/*
 	LISTS
 */
 
@@ -110,7 +110,7 @@ img {
 #beer-list p {
 	color:				#999999;
 	font-size:			12px;
-	margin-top:			5px;	
+	margin-top:			5px;
 }
 
 #response li {
@@ -148,6 +148,13 @@ img {
 
 .circle.selected {
 	background-color:	#851313;
+	color: 						#ffffff;
+	text-align:				center;
+}
+
+.circle.selected span {
+	position: relative;
+	top: 20px;
 }
 
 

@@ -4,7 +4,7 @@ var listItem = (function()
 	{
 
 		$("#location-list li, #brewery-list li").click(function(event)
-		{	
+		{
 			anchor = {
 				val : $("a", this).attr("href"),
 				tag : $("a", this).attr("data-tag")
@@ -19,23 +19,24 @@ var listItem = (function()
 
 		$("#beer-list-li").click(function(event)
 		{
-			
+
 		});
 
 		$("#beer-list li").dblclick(function(event)
 		{
 			beer = $("a",this).attr("href");
+			count = $(".circle span", this).text();
+			count = parseInt(count);
 
-			if($(".circle", this).hasClass("selected"))
+			count++;
+			$(".circle", this).html("<span>" + count + "</span>");
+			$(".circle", this).addClass("selected");
+
+			api.setCheckin(api.currentEvent, beer, api.username, function(checkin)
 			{
-				cellarModel.removeBeer(beer);
-			}
-			else
-			{
-				cellarModel.setBeer(beer);
-			}
-			
-			$(".circle", this).toggleClass("selected");
+			});
+
+
 		});
 	}
 

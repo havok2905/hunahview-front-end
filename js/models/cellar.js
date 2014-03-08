@@ -1,6 +1,6 @@
 var cellarModel = (function()
 {
-	publicBeerCellar = {beers: {}};
+	publicCheckins = null;
 
 	function publicPrintBeerList()
 	{
@@ -28,6 +28,8 @@ var cellarModel = (function()
 
 	function privatePrintBeerPartial(beers)
 	{
+		privateSortBeers(beers);
+
 		$("#response").html("<ul id='beer-list'></ul>");
 		$.each(beers, function(index, beer)
 		{
@@ -35,17 +37,25 @@ var cellarModel = (function()
 			beerName = privateSpliceBeerName(beer.beer);
 
 			beerItem = $("<li></li>");
-			beerItem.append("<a data-tag='beer' href='" + beer.beer + "'>" + beerName + "</a>");
+			beerItem.append("<a data-tag='beer' href='" + beer.beerId + "'>" + beerName + "</a>");
 
-			if(beer.beer in publicBeerCellar)
+			button = "<div class='circle'><span>0</span></div>";
+			count = 0;
+
+			$.each(cellarModel.checkins, function(index, checkin)
 			{
-				beerItem.append("<div class='circle selected'></div>");
-			}
-			else
+				if (beer.beerId == checkin.beerId)
+				{
+					count++;
+				}
+			});
+
+			if(count > 0)
 			{
-				beerItem.append("<div class='circle'></div>");
+				button = "<div class='circle selected'><span>" + count + "</span></div>";
 			}
 
+			beerItem.append(button);
 			beerItem.append("<p>" + beer.breweries[0].name + "</p>");
 			beerItem.append("<p>" + beer.breweries[0].location.city + ", " + beer.breweries[0].location.state + "</p>");
 			beerItem.append("<p>" + beerNotes + "</p>")
@@ -66,10 +76,49 @@ var cellarModel = (function()
 		return beerName;
 	}
 
+	function privateSortBeers(beers)
+	{
+		beers.sort(function(x, y)
+		{
+				if(x.beer > y.beer)
+				{
+					return 1;
+				}
+				else if (x.beer < y.beer)
+				{
+					return -1;
+				}
+				else
+				{
+					return 0;
+				}
+		});
+	}
+
+	function publicSortCheckins(checkins)
+	{
+		checkins.sort(function(x, y)
+		{
+				if(x.beerId > y.beerId)
+				{
+					return 1;
+				}
+				else if (x.beerId < y.beerId)
+				{
+					return -1;
+				}
+				else
+				{
+					return 0;
+				}
+		});
+	}
+
 	return {
 		printBeerList : publicPrintBeerList,
 		printBeerListByLocation : publicPrintBeerListByLocation,
 		printBeerListByBrewery : publicPrintBeerListByBrewery,
-		beerCellar : publicBeerCellar
+		sortCheckins : publicSortCheckins,
+		checkins : publicCheckins
 	}
 })();
