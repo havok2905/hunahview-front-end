@@ -5,7 +5,15 @@
 var api = (function()
 {
 	publicCurrentEvent = null;
-	publicUsername = "tom";
+	publicUsername = getURLParameter( 'username' );
+
+	console.log( publicUsername );
+
+	function getURLParameter(name) {
+	    return decodeURI(
+	        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+	    );
+	}
 
 	function privateGetRequest(path, callback)
 	{
